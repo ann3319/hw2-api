@@ -1,4 +1,4 @@
-name: Daily API Workflow
+name:API Workflow
 
 on:
   schedule:
