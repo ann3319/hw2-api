@@ -1,8 +1,8 @@
-name:API Workflow
+name: Daily API Workflow
 
 on:
   schedule:
-    - cron: '30 13 * * *'   # 每天21:30執行
+    - cron: '30 13 * * *'   # 每天台灣時間 21:30 執行
   workflow_dispatch:        # 手動觸發
 
 jobs:
